@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>College-Website</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+ <title>Chat Bot</title>
+
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+	
+
+	<link rel="stylesheet" href="style0.css">
+</head>
+<body>
+	<nav class="navbar-one flex">
+		<div class="left flex">
+			<div class="logo">
+				<img src="images/logo.jpeg" width=75px, height=75px alt="" class="logo">
+			</div>
+		</div>
+		<div class="center flex">
+			<div class="name">
+				<h1>ETHIRAJ COLLEGE FOR WOMEN (AUTONOMOUS) <br>CHENNAI-600 008 </h1>
+				<h2>(College with Potential for Excellence Re-accredited with 'A+' Grade by NAAC)</h2>
+			</div>
+		</div>
+		<div class="right flex">
+			<div class="images/75logo">
+				
+			</div>
+		</div>
+			
+	</nav>
+	<nav class="navbar-second flex">
+		<div class="left flex"
+			<div class="logo">
+				<img src="images/mcalogo1.jpeg" width=75px, height=75px alt="" class="logo">
+			</div>
+			<div class="name1">
+				<h3>MCA DEPARTMENT</h3>
+			</div>
+		</div>
+		<div class="center flex">
+			
+		</div>
+		<div class="flex">
+			<div class="nav-links">
+				<ul>
+					<li><a href="index0.html"><i class="fa fa-home"></i>HOME</a></li>
+					<li><a href="aboutus0.html"><i class="fa fa-user"></i>ABOUT</a></li>
+					<li><a href="program.html"><i class="fa fa-user"></i>PROGRAM</a></li>
+						<div class="sub-menu-1">
+
+							<ul>
+								<li class="hover-me"><a href="#">MCA DEPARTMENT</a><i class="fa fa-angle-right"></i>
+									
+									<div class="sub-menu-2">
+
+										<ul> 
+											<li><a href="cd.html">COURSE DETAILS</a></li>
+											<li><a href="fp.html">FACULTY PROFILE</a></li>
+											
+											
+										</ul>
+									</div>
+
+								</li>
+								
+							</ul>
+						</div>
+					</li>
+					<li><a href="infra.html"><i class="fa fa-university"></i>INFRASTRUCTURE</a></li>
+					<li><a href="event.html"><i class="fa fa-calendar"></i>EVENTS</a></li>
+					
+					<li><a href="contactus.html"><i class="fa fa-envelope"></i>CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section id="cd">
+		<div class="cd-image">
+
+		</div>
+		<div class="cdhead">
+		<h4>DEPARTMENT OF MCA </h4><br>
+			
+		</div>
+		  
+	</section>
+
+
+	<section id="aboutmca">
+
+		<div class="aboutmcaimg">
+
+			<img src="images/m.jpg" alt="">
+
+		</div>
+
+		<div class="text">
+	
+			<p>The Master of Computer Applications Department was started in 1999 and it strives to offer
+quality education in the field of Information Technology. The MCA course is affiliated to University
+of Madras and approved by All India Council for Technical Education (AICTE) Approval No: F.
+No: TN-58/MCP-CS/98 dated September 23, 1998 and the course got its Autonomy status in the
+year 2006. The dedicated services rendered by the department to the student community for more than
+two decades have nurtured numerous young and perspective women IT professionals. The Master of
+Computer Applications (MCA) programme is a two-year course from the academic year 2020-21, as
+per the latest guidelines issued by the All India Council of Technical Education (AICTE) and UGC.
+The Department is having ambitious objective of developing professional expertise and skilled
+women power in Information Technology. In consistent with this objective, high priorities have been
+placed on effective teaching and learning. <br> Over the period of time, department has progressed at a rapid pace with its infrastructural
+facilities, advanced syllabi and proficient staff who are a part of various development activities.
+Department is enriched with high-end systems in computer labs with the able support of Campus
+WiFi, high bandwidth 1:1 dedicated Internet facility, ICT (audio-visual) room and centralized library.
+Department offers an excellent academic environment to boost complete personality development to
+increase the capabilities and confidence of both the teachers and students to take-up the challenges of
+the dynamic socio-technical world.  In this era of technological explosion, the department is dedicated
+to maintain a high standard of excellence through quality, technology and innovation.</p>
+	
+
+		</div>
+
+
+	</section>
+
+
+<section id="cdbtn">
+
+	<h1>COURSE DETAILS</h1>
+
+	<div class="btn">
+		<a class="blue" href="https://ethirajcollege.edu.in/wp-content/uploads/2023/02/MCA-SYLLABUS.pdf">MCA SYLLABUS</a><br><br><br>
+		
+	</div>
+
+</section>
+<!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with us!
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText">
+                             <span>How can i assist you!</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+<footer>
+
+	<div class="footer-col">
+		
+		<h12>STUDENT CENTER</h12>
+		<li><a href="https://ethirajcollege.edu.in/anti-harassment-cell/">Anti-harassment cell</a></li>
+		<li><a href="https://ethirajcollege.edu.in/anti-ragging-committee/">Anti-ragging committee</a></li>
+		<li><a href="https://ethirajcollege.edu.in/scholarships/">Scholarships</a></li>
+		<li><a href="https://ethirajcollege.edu.in/grievance-cell/">Grievance cell</a></li>
+
+	</div>
+
+	<div class="footer-col">
+		
+		<h12>QUICK LINKS</h12>
+
+		<li><a href="https://ethirajcollege.edu.in/recruitment/">Recruitment</a></li>
+
+		<li><a href="http://results.worldcolleges.info/ethirajresults/apr2021/index.php">Results</a></li>
+
+		<li><a href="https://ethirajcollege.edu.in/wp-content/uploads/2022/06/Declaration-Website.pdf">Declaration</a></li>
+		<li><a href="https://ethirajcollege.edu.in/wp-content/uploads/2022/08/CODE-OF-PROFESSIONAL-ETHICS-FOR-FACULTY.pdf">Code of Conduct</a></li>
+
+	</div>
+
+
+	<div class="footer-col">
+		
+		<h12>NEWS LETTER</h12><br><br>
+		<input type="text" placeholder="Your Email Address">
+		<div class="subscribe">
+			
+			<a href="#" class="yellow">SUBSCRIBE</a>
+		</div>
+	</div>
+
+	<div class="footer-col">
+
+		<h12>ETHIRAJ COLLEGE FOR WOMEN</h12><br><br>
+		<h12>ADDRESS</h12><br>
+		<p>70, Ethiraj Salai, Egmore,Chennai 600008,<br> Tamilnadu, India</p><br>
+
+		<h12>PHONE</h12><br>
+		<p>+(91)-44-28279189</p><br>
+
+		<h12>EMAIL</h12><br>
+		<p>mcadepartment@ethirajcollege.edu.in</p>
+
+	</div>
+		
+</footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/scripts/responses.js"></script>
+<script src="static/scripts/chat.js"></script>
+</html>
+	
